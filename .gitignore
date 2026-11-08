@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Credentials and local configuration
+.env
+.env.*
+*.pem
+*.key
+
+# Obsolete Part 3 debugging artifacts
+part3_transformer_best.pth
+part3_transformer_best_debug_run.pth
+part3_transformer_training_history.csv
+part3_transformer_training_history_debug_run.csv
+part3_transformer_learning_curves.png
+part3_transformer_learning_curves_debug_run.png
+part3_transformer_confusion_matrix.png
+
+# Duplicate backups
+tfidf_matrix_previous_backup.npy
+cleaned.txt.txt
+raw.txt.txt
